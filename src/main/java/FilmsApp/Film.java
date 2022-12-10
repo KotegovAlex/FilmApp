@@ -62,5 +62,8 @@ public class Film {
         artistList = builder.artistList;
     }
 
-
+    @Override
+    public String toString() {
+        return "Название: " + filmName + ", год: " + year;
+    }
 }
